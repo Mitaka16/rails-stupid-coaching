@@ -1,0 +1,14 @@
+<h1>Answer</h1>
+
+<div class="answer-style">
+  <div class="user-ask">
+    <%= params[:questions] %>
+    <%= 'From: You'%>
+  </div>
+  <div class="answer-coach">
+    <%= @answer %>
+    <%= 'From: Your coach' %>
+  </div>
+
+</div>
+  <%= link_to "Ask another question", ask_path %>
